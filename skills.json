@@ -1,0 +1,77 @@
+{
+  "name": "bona-renter-skills",
+  "version": "0.3.0",
+  "description": "Instructions for a renter's own AI assistant: find a fitting home, understand the real cost, and move toward a sound lease.",
+  "repository": "https://github.com/BrgnTech/askbona-renter-skills",
+  "branch": "main",
+  "completeGuide": {
+    "path": "BONA.md",
+    "url": "https://raw.githubusercontent.com/BrgnTech/askbona-renter-skills/main/BONA.md"
+  },
+  "rights": {
+    "path": "COPYRIGHT.md",
+    "url": "https://raw.githubusercontent.com/BrgnTech/askbona-renter-skills/main/COPYRIGHT.md"
+  },
+  "skills": [
+    {
+      "name": "bona",
+      "description": "Help a residential renter find a fitting home, compare real costs, arrange useful tours, improve lease terms, and move toward agreement. Select the next useful Bona workflow without requiring skill names.",
+      "path": "skills/bona/SKILL.md",
+      "url": "https://raw.githubusercontent.com/BrgnTech/askbona-renter-skills/main/skills/bona/SKILL.md"
+    },
+    {
+      "name": "bona-understand-me",
+      "description": "Turn a residential renter's situation into a short search brief. Use for a new search, unclear priorities, competing preferences, or a change in needs; skip intake when a concrete listing task can be answered directly.",
+      "path": "skills/bona-understand-me/SKILL.md",
+      "url": "https://raw.githubusercontent.com/BrgnTech/askbona-renter-skills/main/skills/bona-understand-me/SKILL.md"
+    },
+    {
+      "name": "bona-find-homes",
+      "description": "Find residential rentals across accessible sources and organize saved listings into a deduplicated shortlist. Use for apartment searches or messy home lists, not as a substitute for a current unit quote or booking confirmation.",
+      "path": "skills/bona-find-homes/SKILL.md",
+      "url": "https://raw.githubusercontent.com/BrgnTech/askbona-renter-skills/main/skills/bona-find-homes/SKILL.md"
+    },
+    {
+      "name": "bona-work-out-costs",
+      "description": "Compare the real cost of rental offers, including required fees, chosen extras, concessions, deposits, and payment timing. Use when advertised rent, move-in cash, or competing lease offers could mislead a renter.",
+      "path": "skills/bona-work-out-costs/SKILL.md",
+      "url": "https://raw.githubusercontent.com/BrgnTech/askbona-renter-skills/main/skills/bona-work-out-costs/SKILL.md"
+    },
+    {
+      "name": "bona-check-a-home",
+      "description": "Investigate a residential listing against a renter's needs using property information, reviews, and other accessible evidence. Use for a pasted listing, policy concern, suspicious offer, or unresolved question about a home.",
+      "path": "skills/bona-check-a-home/SKILL.md",
+      "url": "https://raw.githubusercontent.com/BrgnTech/askbona-renter-skills/main/skills/bona-check-a-home/SKILL.md"
+    },
+    {
+      "name": "bona-ask-before-a-tour",
+      "description": "Prepare short, property-specific questions before a rental tour or application. Use when missing costs, policies, unit details, or review concerns could change whether a renter proceeds.",
+      "path": "skills/bona-ask-before-a-tour/SKILL.md",
+      "url": "https://raw.githubusercontent.com/BrgnTech/askbona-renter-skills/main/skills/bona-ask-before-a-tour/SKILL.md"
+    },
+    {
+      "name": "bona-plan-tours",
+      "description": "Help a renter choose, arrange, and prepare for property tours. Use for tour requests, booking help, or a visit plan; a tour request does not authorize an application, payment, credit check, or marketing enrollment.",
+      "path": "skills/bona-plan-tours/SKILL.md",
+      "url": "https://raw.githubusercontent.com/BrgnTech/askbona-renter-skills/main/skills/bona-plan-tours/SKILL.md"
+    },
+    {
+      "name": "bona-learn-from-tours",
+      "description": "Turn a renter's tour impressions, notes, or photos into better search decisions. Use after a rental visit to update the home comparison and clarify preferences without forcing a long survey.",
+      "path": "skills/bona-learn-from-tours/SKILL.md",
+      "url": "https://raw.githubusercontent.com/BrgnTech/askbona-renter-skills/main/skills/bona-learn-from-tours/SKILL.md"
+    },
+    {
+      "name": "bona-get-a-better-deal",
+      "description": "Help a renter improve a lease offer through current comparisons, useful flexibility, and a concise cooperative request. Use for rent, concessions, fees, start dates, lease length, counteroffers, or an optional renewal request informed by apartment alternatives; not legal disputes or automatic acceptance.",
+      "path": "skills/bona-get-a-better-deal/SKILL.md",
+      "url": "https://raw.githubusercontent.com/BrgnTech/askbona-renter-skills/main/skills/bona-get-a-better-deal/SKILL.md"
+    },
+    {
+      "name": "bona-choose-a-home",
+      "description": "Help a renter choose among feasible homes and finish the next step using their priorities, full costs, tour observations, and written terms. Use for competing offers, a final shortlist, or moving from a decision toward agreement.",
+      "path": "skills/bona-choose-a-home/SKILL.md",
+      "url": "https://raw.githubusercontent.com/BrgnTech/askbona-renter-skills/main/skills/bona-choose-a-home/SKILL.md"
+    }
+  ]
+}
