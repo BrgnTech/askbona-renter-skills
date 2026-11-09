@@ -16,8 +16,8 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 REPO = "https://github.com/BrgnTech/askbona-renter-skills"
 RAW = "https://raw.githubusercontent.com/BrgnTech/askbona-renter-skills/main"
-VERSION = "0.3.0"
-DATE = "October 30, 2026"
+VERSION = "0.4.0"
+DATE = "November 9, 2026"
 
 # The coordinator first, then the specialists in the order a search usually runs.
 ORDER = [
@@ -45,7 +45,7 @@ Attach this file or paste its contents into a new conversation. Then send:
 
 > Use this Bona guide to help me find a home and get a good deal. Start with my request, use what I have already told you, and ask one useful question at a time. Give me a clear recommendation when you can.
 
-Then paste a listing, describe your search, or compare offers. No skill command is needed.
+Then paste a listing, describe your search, or compare offers. No skill command is needed. If you share a link and your assistant cannot open it, paste the page text instead.
 
 Results depend on your assistant. It must be able to read and follow a long set of instructions, and tools such as browsing vary by product and account. If your assistant cannot open a link to this guide, attach the file or paste the text instead. This guide has not been tested end to end in consumer assistants such as ChatGPT or Claude.
 

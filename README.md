@@ -54,7 +54,7 @@ One coordinator and nine specialists. They are capabilities, not steps you must 
 | | [Find homes](skills/bona-find-homes/SKILL.md) | A few distinct choices in one tidy list. |
 | **Check a home** | [Work out costs](skills/bona-work-out-costs/SKILL.md) | Monthly cost, move-in cash, and the full lease cost. |
 | | [Check a home](skills/bona-check-a-home/SKILL.md) | Why it may fit and what to resolve next. |
-| | [Ask before a tour](skills/bona-ask-before-a-tour/SKILL.md) | A short, friendly message when an answer matters. |
+| | [Ask before a tour](skills/bona-ask-before-a-tour/SKILL.md) | Polite, exact questions for before and at the tour. |
 | **Tour** | [Plan tours](skills/bona-plan-tours/SKILL.md) | A workable visit plan and a few personal checks. |
 | | [Learn from tours](skills/bona-learn-from-tours/SKILL.md) | Better choices without repeating the interview. |
 | **Decide** | [Get a better deal](skills/bona-get-a-better-deal/SKILL.md) | An honest request and a clear offer comparison. |
@@ -89,5 +89,5 @@ Download and install links are provided for convenience. They do not grant a lic
 <br>
 
 <p align="center">
-  <sub>Version 0.3.0 · October 30, 2026 · © 2026 Bona · <a href="COPYRIGHT.md">Rights</a> · <a href="SOURCES.md">Sources</a> · <a href="LIMITATIONS.md">Limitations</a></sub>
+  <sub>Version 0.4.0 · November 9, 2026 · © 2026 Bona · <a href="COPYRIGHT.md">Rights</a> · <a href="SOURCES.md">Sources</a> · <a href="LIMITATIONS.md">Limitations</a></sub>
 </p>

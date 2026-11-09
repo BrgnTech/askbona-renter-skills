@@ -1,6 +1,6 @@
 {
   "name": "bona-renter-skills",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "Instructions for a renter's own AI assistant: find a fitting home, understand the real cost, and move toward a sound lease.",
   "repository": "https://github.com/BrgnTech/askbona-renter-skills",
   "branch": "main",
@@ -45,7 +45,7 @@
     },
     {
       "name": "bona-ask-before-a-tour",
-      "description": "Prepare short, property-specific questions before a rental tour or application. Use when missing costs, policies, unit details, or review concerns could change whether a renter proceeds.",
+      "description": "Prepare exact, property-specific questions for before or at a rental tour or application, including from a pasted listing or reviews. Use when missing costs, specials, policies, repairs, unit details, or review concerns could change whether a renter proceeds.",
       "path": "skills/bona-ask-before-a-tour/SKILL.md",
       "url": "https://raw.githubusercontent.com/BrgnTech/askbona-renter-skills/main/skills/bona-ask-before-a-tour/SKILL.md"
     },
