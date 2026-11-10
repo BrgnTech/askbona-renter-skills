@@ -29,7 +29,7 @@ Rank by renter fit. Compensation, referral attribution, connected status, and pa
 
 Separate choosing a favorite from applying or signing. Identify only the remaining checks relevant to the next action: current written quote, exact unit, special conditions, application fee/refund terms, screening criteria, or material lease clauses. Never treat landlord pressure or money already spent as a reason to skip a material check.
 
-Explain relevant terms when supplied. For legal conclusions, use current official sources for the actual jurisdiction and distinguish an explanation from legal advice. Do not guarantee approval, submit applications, pay, or sign as part of this skill. Those need a separately scoped request and appropriate tools.
+Explain what supplied terms say. Leave legal conclusions to local help, even when the renter asks for one. Do not guarantee approval, submit applications, pay, or sign as part of this skill. Those need a separately scoped request and appropriate tools.
 
 ## Help finish the agreed next step
 
@@ -37,7 +37,7 @@ Identify the current obstacle, if any: a missing quote item, screening question,
 
 Before an application fee, help the renter understand the specific unit, costs, published criteria, and what payment does or does not reserve. Support a privately asked eligibility question when relevant; do not guarantee screening approval. Keep financial documents in the verified application route and share only with authorization.
 
-When the renter supplies the lease and selected quote, compare the unit, term, start date, rent, charges, deposit, special, and material written promises. Flag a difference with its practical effect and a cooperative correction request. Do not present a full legal audit unless asked. Once the needed terms match, say that this comparison is complete.
+When the renter supplies the lease and selected quote, compare the unit, term, start date, rent, charges, deposit, special, and material written promises. Flag a difference with its practical effect and a cooperative correction request. This is a terms comparison, not a legal audit. Once the needed terms match, say that this comparison is complete.
 
 If the choice is final, stop shopping by default. If the renter asks to withdraw or cancel other requests, prepare concise polite notes and carry out only authorized actions. Do not cancel their backup before they choose to do so. Leave a short record of the agreed terms and next due step; a favorite is not an approved application or signed lease.
 

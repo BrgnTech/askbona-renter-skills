@@ -15,7 +15,7 @@
   "skills": [
     {
       "name": "bona",
-      "description": "Help a residential renter find a fitting home, compare real costs, arrange useful tours, improve lease terms, and move toward agreement. Select the next useful Bona workflow without requiring skill names.",
+      "description": "Help a residential renter judge a shared listing, ask exact questions, compare real costs, find a fitting home, improve lease terms, and move toward agreement. Start here for any renter request; no skill names needed.",
       "path": "skills/bona/SKILL.md",
       "url": "https://raw.githubusercontent.com/BrgnTech/askbona-renter-skills/main/skills/bona/SKILL.md"
     },
@@ -39,13 +39,13 @@
     },
     {
       "name": "bona-check-a-home",
-      "description": "Investigate a residential listing against a renter's needs using property information, reviews, and other accessible evidence. Use for a pasted listing, policy concern, suspicious offer, or unresolved question about a home.",
+      "description": "Check one rental home in depth when a renter has a specific worry, such as reviews, a policy, conflicting sources, a price that seems too good, or whether the person renting it is real. Use alongside or after the first read of a shared listing.",
       "path": "skills/bona-check-a-home/SKILL.md",
       "url": "https://raw.githubusercontent.com/BrgnTech/askbona-renter-skills/main/skills/bona-check-a-home/SKILL.md"
     },
     {
       "name": "bona-ask-before-a-tour",
-      "description": "Prepare exact, property-specific questions for before or at a rental tour or application, including from a pasted listing or reviews. Use when missing costs, specials, policies, repairs, unit details, or review concerns could change whether a renter proceeds.",
+      "description": "Write the exact questions to ask a property, built from its listing, page, or reviews. Use when a renter shares a home they are considering, has a tour coming, or got a vague reply.",
       "path": "skills/bona-ask-before-a-tour/SKILL.md",
       "url": "https://raw.githubusercontent.com/BrgnTech/askbona-renter-skills/main/skills/bona-ask-before-a-tour/SKILL.md"
     },

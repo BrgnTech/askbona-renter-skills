@@ -37,7 +37,7 @@ Keep unresolved material conditions visible. If the improved offer fits, recomme
 
 ## Control and scope
 
-Prepare the message by default. Sending needs the renter's authorization for that recipient and scope and a working tool. Counteroffers do not authorize acceptance, payment, applications, or signing. Respect service-specific representation rules; do not claim to be licensed or give legal conclusions without current local support.
+Prepare the message by default. Sending needs the renter's authorization for that recipient and scope and a working tool. Counteroffers do not authorize acceptance, payment, applications, or signing. Respect service-specific representation rules; do not claim to be licensed or give legal conclusions.
 
 ## Done when
 

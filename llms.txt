@@ -26,4 +26,5 @@ Start with the coordinator, or load the complete guide as one document. Bring in
 - [COPYRIGHT.md](https://raw.githubusercontent.com/BrgnTech/askbona-renter-skills/main/COPYRIGHT.md): public to read; no reuse license granted
 - [SOURCES.md](https://raw.githubusercontent.com/BrgnTech/askbona-renter-skills/main/SOURCES.md): inspiration and provenance
 - [LIMITATIONS.md](https://raw.githubusercontent.com/BrgnTech/askbona-renter-skills/main/LIMITATIONS.md): what has and has not been tested
+- [CHANGELOG.md](https://raw.githubusercontent.com/BrgnTech/askbona-renter-skills/main/CHANGELOG.md): What changed in each version, and why.
 - [skills.json](https://raw.githubusercontent.com/BrgnTech/askbona-renter-skills/main/skills.json): machine-readable skill list
