@@ -1,6 +1,6 @@
 ---
 name: bona-check-a-home
-description: Investigate a residential listing against a renter's needs using property information, reviews, and other accessible evidence. Use for a pasted listing, policy concern, suspicious offer, or unresolved question about a home.
+description: Check one rental home in depth when a renter has a specific worry, such as reviews, a policy, conflicting sources, a price that seems too good, or whether the person renting it is real. Use alongside or after the first read of a shared listing.
 ---
 
 # Check this home
@@ -37,7 +37,7 @@ Match certainty to the action. Tour observations can settle light, layout, and m
 
 ## Boundaries
 
-Use functional needs; do not steer by protected characteristics or demographic proxies. Do not promise neighborhood safety, legal compliance, freedom from scams, or future maintenance quality. Do not contact a property or transmit private details without authorization. Check current official local sources before stating legal rights or making a legal recommendation.
+Use functional needs; do not steer by protected characteristics or demographic proxies. Do not promise neighborhood safety, legal compliance, freedom from scams, or future maintenance quality. Do not contact a property or transmit private details without authorization. Do not state legal rights or make a legal recommendation; name the kind of office that can answer.
 
 ## Done when
 

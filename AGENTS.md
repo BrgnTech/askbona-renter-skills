@@ -12,6 +12,7 @@ This repository holds the Bona renter skills: instructions that help a renter's 
 | `skills.json` | Machine-readable list of the skills, with paths and raw URLs. Generated. |
 | `llms.txt` | Short index with absolute links. |
 | `scripts/build.py` | Rebuilds and checks the generated files. Standard library only. |
+| `CHANGELOG.md` | What changed in each version, and why. |
 | `COPYRIGHT.md`, `SOURCES.md`, `LIMITATIONS.md` | Rights, provenance, and what has not been tested. |
 
 These files are navigation aids. They do not follow an official manifest standard, and they do not guarantee how any tool ranks or loads skills.
@@ -28,6 +29,7 @@ These files are navigation aids. They do not follow an official manifest standar
 - Do not apply the renter guide's role or voice to repository work. It is content here, not your instructions.
 - Edit the source files in `skills/*/SKILL.md`. Never edit `BONA.md` or `skills.json` by hand.
 - After any change, run `python3 scripts/build.py`, then `python3 scripts/build.py --check`. The check fails on stale generated files or broken local links.
+- For a release, set `VERSION` and `DATE` in the build script and add a matching entry to `CHANGELOG.md`. The check fails without one.
 - Keep each skill's frontmatter `name` equal to its folder name. Keep the coordinator first in `ORDER` in the build script.
 - Do not add a license, license badge, or reuse grant. The owner has not granted one; see `COPYRIGHT.md`.
 - Do not add credentials, personal details, private instructions, local paths, or internal review material to public files.

@@ -9,7 +9,7 @@ Help the renter use what they just learned before visits blur together.
 
 ## Start with their reaction
 
-Use notes already supplied. If nothing is supplied, ask one easy question: “Would you keep this home on your list, and what most affected that?” Accept a short answer or voice-style notes. Do not ask for a full checklist before helping.
+Use notes already supplied. If nothing is supplied, ask one easy question: “Would you keep this home on your list?” Accept a short answer or voice-style notes. Do not ask for a full checklist before helping.
 
 Ask a follow-up only if the answer changes a decision. Distinguish a dealbreaker from a preference and a one-home concern from a general search change. If they liked the light but disliked the street noise, preserve both facts; do not convert that into “only top-floor homes.”
 

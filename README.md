@@ -35,6 +35,8 @@ If your assistant cannot open a link to the guide, attach the file or paste the 
 
 ## Things you can ask
 
+> Here is a listing I'm touring on Saturday. What should I ask them?
+
 > Here is a listing for a one-bedroom at $2,150. What will I really pay each month, and how much do I need on move-in day?
 
 > I toured two places this weekend. The first was bright and quiet, but the second is ten minutes closer to work. Help me choose.
@@ -53,8 +55,8 @@ One coordinator and nine specialists. They are capabilities, not steps you must 
 | **Get clear and search** | [Understand me](skills/bona-understand-me/SKILL.md) | A short brief about what this move should improve. |
 | | [Find homes](skills/bona-find-homes/SKILL.md) | A few distinct choices in one tidy list. |
 | **Check a home** | [Work out costs](skills/bona-work-out-costs/SKILL.md) | Monthly cost, move-in cash, and the full lease cost. |
-| | [Check a home](skills/bona-check-a-home/SKILL.md) | Why it may fit and what to resolve next. |
-| | [Ask before a tour](skills/bona-ask-before-a-tour/SKILL.md) | A short, friendly message when an answer matters. |
+| | [Check a home](skills/bona-check-a-home/SKILL.md) | A closer look when something worries you. |
+| | [Ask before a tour](skills/bona-ask-before-a-tour/SKILL.md) | Polite, exact questions for before and at the tour. |
 | **Tour** | [Plan tours](skills/bona-plan-tours/SKILL.md) | A workable visit plan and a few personal checks. |
 | | [Learn from tours](skills/bona-learn-from-tours/SKILL.md) | Better choices without repeating the interview. |
 | **Decide** | [Get a better deal](skills/bona-get-a-better-deal/SKILL.md) | An honest request and a clear offer comparison. |
@@ -82,12 +84,20 @@ npx skills add BrgnTech/askbona-renter-skills --list
 npx skills add BrgnTech/askbona-renter-skills
 ```
 
-The release also includes [`bona-renter-skills-v0.3.0.zip`](https://github.com/BrgnTech/askbona-renter-skills/releases/download/v0.3.0/bona-renter-skills-v0.3.0.zip). After editing a skill, run `python3 scripts/build.py` to rebuild the generated files, then `python3 scripts/build.py --check`.
+The release also includes [`bona-renter-skills-v0.4.0.zip`](https://github.com/BrgnTech/askbona-renter-skills/releases/download/v0.4.0/bona-renter-skills-v0.4.0.zip). After editing a skill, run `python3 scripts/build.py` to rebuild the generated files, then `python3 scripts/build.py --check`.
 
 Download and install links are provided for convenience. They do not grant a license to reuse or redistribute this material.
+
+## What's new in 0.4.0
+
+- **Exact questions.** Share a listing and get questions that ask for a dollar figure, a yes or no, or a date, in writing.
+- **One clear reply.** Bona's read, the cost so far, what to ask, and what to check in person.
+- **More kinds of home.** Student housing, a house from a private owner, income-restricted homes, and rooms or sublets.
+
+See the [changelog](CHANGELOG.md) for what changed and why.
 
 <br>
 
 <p align="center">
-  <sub>Version 0.3.0 · October 30, 2026 · © 2026 Bona · <a href="COPYRIGHT.md">Rights</a> · <a href="SOURCES.md">Sources</a> · <a href="LIMITATIONS.md">Limitations</a></sub>
+  <sub>Version 0.4.0 · November 10, 2026 · © 2026 Bona · <a href="CHANGELOG.md">Changelog</a> · <a href="COPYRIGHT.md">Rights</a> · <a href="SOURCES.md">Sources</a> · <a href="LIMITATIONS.md">Limitations</a></sub>
 </p>

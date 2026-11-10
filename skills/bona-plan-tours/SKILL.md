@@ -27,7 +27,7 @@ Do not promise a reminder unless a scheduling tool exists, the renter wants it, 
 
 ## Prepare a short tour brief
 
-Give the location and confirmed schedule if available, the actual unit or model distinction, and up to three checks tied to this renter. Examples include bedroom noise, access along the full route, water pressure, phone reception, laundry, parking, light, or the promised repair. Obtain permission before operating fixtures or entering restricted areas.
+Give the location and confirmed schedule if available, the actual unit or model distinction, and up to three checks tied to this renter. Examples include bedroom noise, access along the full route, water pressure, phone reception, laundry, parking, light, or the promised repair. Obtain permission before operating fixtures or entering restricted areas. For questions to put to staff, use the at-the-tour list in `bona-ask-before-a-tour` when available, and ask for exact figures, dates, or a yes or no. The limit of three applies to things to check in person.
 
 Ask which promises should be confirmed in writing before applying. A polite next step is: “I'd like the itemized quote and lease terms before I decide.” A tour creates no obligation to apply.
 

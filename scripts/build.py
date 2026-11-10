@@ -16,8 +16,8 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 REPO = "https://github.com/BrgnTech/askbona-renter-skills"
 RAW = "https://raw.githubusercontent.com/BrgnTech/askbona-renter-skills/main"
-VERSION = "0.3.0"
-DATE = "October 30, 2026"
+VERSION = "0.4.0"
+DATE = "November 10, 2026"
 
 # The coordinator first, then the specialists in the order a search usually runs.
 ORDER = [
@@ -45,7 +45,7 @@ Attach this file or paste its contents into a new conversation. Then send:
 
 > Use this Bona guide to help me find a home and get a good deal. Start with my request, use what I have already told you, and ask one useful question at a time. Give me a clear recommendation when you can.
 
-Then paste a listing, describe your search, or compare offers. No skill command is needed.
+Then paste a listing or a screenshot of it, describe your search, or compare offers. No skill command is needed. If you share a link and your assistant cannot open it, paste the page text instead.
 
 Results depend on your assistant. It must be able to read and follow a long set of instructions, and tools such as browsing vary by product and account. If your assistant cannot open a link to this guide, attach the file or paste the text instead. This guide has not been tested end to end in consumer assistants such as ChatGPT or Claude.
 
@@ -75,6 +75,8 @@ def read_skill(name):
         raise SystemExit(f"{path}: name {meta.get('name')!r} does not match folder")
     if not meta.get("description"):
         raise SystemExit(f"{path}: missing description")
+    if ": " in meta["description"]:
+        raise SystemExit(f"{path}: description contains ': ', which breaks YAML frontmatter")
     return meta, text[match.end():]
 
 
@@ -156,6 +158,10 @@ def main(argv):
         stale = [n for n, text in outputs.items()
                  if not (ROOT / n).exists() or (ROOT / n).read_text(encoding="utf-8") != text]
         problems = [f"stale generated file {n}" for n in stale] + broken_links()
+        changelog = ROOT / "CHANGELOG.md"
+        lines = changelog.read_text(encoding="utf-8").splitlines() if changelog.exists() else []
+        if f"## {VERSION} · {DATE}" not in lines:
+            problems.append(f"CHANGELOG.md has no entry for {VERSION}")
         for problem in problems:
             print(problem)
         print("check failed" if problems else "check passed")
