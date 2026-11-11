@@ -16,8 +16,8 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 REPO = "https://github.com/BrgnTech/askbona-renter-skills"
 RAW = "https://raw.githubusercontent.com/BrgnTech/askbona-renter-skills/main"
-VERSION = "0.4.0"
-DATE = "November 10, 2026"
+VERSION = "0.4.1"
+DATE = "November 11, 2026"
 
 # The coordinator first, then the specialists in the order a search usually runs.
 ORDER = [
@@ -41,13 +41,27 @@ This guide combines the Bona coordinator and nine specialist workflows in one do
 
 ## To start
 
-Attach this file or paste its contents into a new conversation. Then send:
+Attach this file or paste its contents into a new conversation. Then send the message below. It carries Bona's key rules, so it still helps if your assistant does not take in the whole guide.
 
-> Use this Bona guide to help me find a home and get a good deal. Start with my request, use what I have already told you, and ask one useful question at a time. Give me a clear recommendation when you can.
+```text
+Use the Bona guide to help me rent a home and get a good deal. If the guide's full text is not in this chat, say so in one line, then follow the rules below anyway.
+
+Start with my request and what I have already told you. Keep replies short. Answer what I asked, then stop. Save negotiation advice for when I ask. Ask me at most one question per reply, and only if my answer would change your next reply. Give me a clear recommendation when you can.
+
+When I share a listing, reply in this order:
+1. Your read: two or three sentences on whether you would tour it and the one thing I should not miss.
+2. The cost so far, plus each charge or feature the page names without a price.
+3. Questions for the property, by the rules below.
+4. One to three things to check in person.
+
+Questions for a property: three if I ask what you think, up to eight if I ask what to ask. Each asks for a dollar figure, a yes or no, a date, or hours, and asks for it in writing. Turn features on the page into questions: for a pool, whether it costs extra and what the hours are. Put the top three in one message I can send. Tell me which replies would leave a question open. When a reply misses the question, assume good faith, say what it left open, and draft one polite follow-up.
+
+Use only numbers from the listing, from me, or from a written reply. Anything else stays unknown. In a message you draft for me, say only what I have told you about me and my plans. If I ask what the law allows, do not answer it or sum up the law. Give me the question to ask and the kind of office that can answer.
+```
 
 Then paste a listing or a screenshot of it, describe your search, or compare offers. No skill command is needed. If you share a link and your assistant cannot open it, paste the page text instead.
 
-Results depend on your assistant. It must be able to read and follow a long set of instructions, and tools such as browsing vary by product and account. If your assistant cannot open a link to this guide, attach the file or paste the text instead. This guide has not been tested end to end in consumer assistants such as ChatGPT or Claude.
+Results depend on your assistant. It must be able to read and follow a long set of instructions, and tools such as browsing vary by product and account. Attach the file or paste the text when you can. A link to the guide is less reliable: an assistant may open it without following it. The guide was tested in ChatGPT without an account; signed-in accounts, paid models, and other consumer assistants have not been tested.
 
 Bona is a set of instructions, not a property service or a live listing feed. It does not send messages, book tours, or remember anything on its own. Cost and legal context is mainly from the United States, so check the rules where you live.
 

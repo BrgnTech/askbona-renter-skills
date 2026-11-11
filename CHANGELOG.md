@@ -2,6 +2,19 @@
 
 What changed in each version of the Bona renter guide, and why. Newest first.
 
+## 0.4.1 · November 11, 2026
+
+**In short:** the message you send first now carries Bona's key rules, so you get Bona's answer even when your assistant does not follow the full guide.
+
+### Changed
+
+- **A stronger start message.** It now sets out the one reply for a shared listing (the read, the cost so far, the questions, and what to check in person), the exact-question rules and limits, no numbers from memory, no unasked negotiation advice, and no legal answers. It also asks the assistant to say in one line if the guide's full text is not in the chat. *Why:* in ChatGPT, the old one-paragraph message was the part the assistant followed most. Given only a link to the guide, ChatGPT acted as if it had read it, answered from general knowledge, and suggested a rent figure nobody had offered.
+- **Links to the guide.** The guide and the README now say plainly that a link is less reliable than attaching the file or pasting the text.
+
+### Tested
+
+In ChatGPT without an account, on the free model, one run each. With the old message, a link to the guide produced a generic checklist of about thirty questions, and pasted text produced seventeen. With the new message, three chats (no guide, a link, and pasted text) each gave the one reply for a shared listing, eight tour questions, no unasked negotiation advice, and no invented figures. Two of the three gave no summary of the law on a voucher question; one added a sentence about a state rule. Signed-in accounts, paid models, and other assistants have not been tested. See [Limitations](LIMITATIONS.md).
+
 ## 0.4.0 · November 10, 2026
 
 **In short:** share a listing and Bona answers in one clear reply, with exact questions to ask the property. It sounds more like a friend who knows renting, and it stays out of legal conclusions and guessed numbers.
