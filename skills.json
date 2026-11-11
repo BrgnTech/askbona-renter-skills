@@ -1,6 +1,6 @@
 {
   "name": "bona-renter-skills",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "description": "Instructions for a renter's own AI assistant: find a fitting home, understand the real cost, and move toward a sound lease.",
   "repository": "https://github.com/BrgnTech/askbona-renter-skills",
   "branch": "main",
